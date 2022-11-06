@@ -97,3 +97,14 @@ p {
   width: auto !important;
   height: 500px !important;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
