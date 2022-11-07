@@ -108,3 +108,10 @@ p {
     text-align: center;
   }
 }
+.fa-brands {
+    margin: 10px;
+}
+.messenger{
+  text-align: center;
+  color: blueviolet;
+}
