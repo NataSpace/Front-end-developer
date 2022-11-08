@@ -1,32 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;700&display=swap");
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-primary: Playfair Display, serif;
+  --font-secondary: Poppins, sans-serif;
 }
 
 body {
   margin: 10px auto;
-  max-width: 800px;
+  max-width: 1440px;
 }
 
-h1,
-h2,
-h3 {
+.hero h3 {
+  font-family: var(--font-secondary);
+  font-size: 36px;
   text-align: center;
-  margin: 0;
+  color: #272142;
+  font-weight: 700;
+  padding-top: 275px;
 }
 
-h1 {
+.hero h1 {
+  font-family: var(--font-primary);
+  font-weight: 700;
   font-size: 96px;
+  color: #000000;
+  text-align: center;
 }
 
-h2 {
-  font-size: 48px;
-}
-
-h3 {
+.hero h2 {
+  font-family: var(--font-secondary);
+  font-weight: 400;
   font-size: 24px;
-  opacity: 0.7;
+  text-align: center;
+  color: #272142;
+  margin-top: 25px;
+}
+
+.hero {
+  background: #f9f7fe;
+  height: 900px;
 }
 
 p {
@@ -44,29 +59,19 @@ p {
   justify-content: center;
 }
 
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
+.btn-primary {
+  padding: 18px 46px;
   text-decoration: none;
   text-transform: capitalize;
-}
-
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
+  color: #ffffff;
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 20px;
+  border-radius: 5px;
+  background-color: #6c63ff;
+  border: 1px solid #6c63ff;
+  margin-top: 50px;
 }
 
 .about-paragraphs {
@@ -100,18 +105,22 @@ p {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
   }
   h2 {
-    font-size: 18px;
+    font-size: 10px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 8px;
     text-align: center;
   }
 }
 .fa-brands {
-    margin: 10px;
+  margin: 10px;
 }
-.messenger{
+.messenger {
   text-align: center;
   color: blueviolet;
 }
