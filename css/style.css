@@ -3,7 +3,6 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --font-primary: Playfair Display, serif;
   --font-secondary: Poppins, sans-serif;
 }
@@ -13,7 +12,7 @@ body {
   max-width: 1440px;
 }
 
-.hero h3 {
+.hero h4 {
   font-family: var(--font-secondary);
   font-size: 36px;
   text-align: center;
@@ -30,7 +29,7 @@ body {
   text-align: center;
 }
 
-.hero h2 {
+.hero h3 {
   font-family: var(--font-secondary);
   font-weight: 400;
   font-size: 24px;
@@ -42,15 +41,6 @@ body {
 .hero {
   background: #f9f7fe;
   height: 900px;
-}
-
-p {
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
 }
 
 .navigation-links {
@@ -74,13 +64,52 @@ p {
   margin-top: 50px;
 }
 
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
+.info {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  font-size: 18px;
+  color: #272142;
 }
 
-.about-paragraphs p {
-  margin: 10px;
+h2 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 64px;
+  color: #000000;
+}
+
+.aboutProject {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  font-size: 16px;
+  color: #272142;
+  line-height: 1.5;
+}
+
+.btn-branding-outline {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.project-descriptions-women {
+  padding: 120px 60px;
+}
+
+.project-descriptions {
+  padding: 20px 40px;
+}
+
+.text-uppercase p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .email-link {
@@ -94,33 +123,45 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+.container-foto {
+  background: #f9f7fe;
+}
+
 .foto {
-  width: 600px !important;
+  width: 700px !important;
   height: auto !important;
 }
 .foto-women {
   width: auto !important;
-  height: 500px !important;
+  height: 560px !important;
 }
 
-@media (max-width: 576px) {
-  h1 {
-    font-size: 15px;
-    text-align: center;
-  }
-  h2 {
-    font-size: 10px;
-    text-align: center;
-  }
-  h3 {
-    font-size: 8px;
-    text-align: center;
-  }
+#contact {
+  text-align: center;
+  background: #f9f7fe;
 }
+
 .fa-brands {
   margin: 10px;
 }
 .messenger {
   text-align: center;
   color: blueviolet;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .project-descriptions,
+  .project-descriptions-women {
+    padding: 0;
+    text-align: center;
+  }
 }
