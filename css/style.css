@@ -71,7 +71,7 @@ body {
   color: #272142;
 }
 
-h2 {
+.hero h2 {
   font-family: var(--font-primary);
   font-weight: 700;
   font-size: 64px;
@@ -150,6 +150,25 @@ h2 {
   color: blueviolet;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section p {
+  font-size: 18px;
+  font-family: var(--font-secondary);
+}
+
+.my-foto {
+  width: 420px;
+  height: 400px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 60px;
@@ -163,5 +182,9 @@ h2 {
   .project-descriptions-women {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
