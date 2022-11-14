@@ -115,7 +115,8 @@ h1 {
 	margin: 50px auto 18px 115px;
 }
 
-.inquiry-text p {
+.inquiry-text p,
+.github {
 	font-family: var(--font-secondary);
 	font-weight: 400;
 	font-size: 18px;
@@ -149,20 +150,29 @@ h1 {
 	text-decoration: none;
 }
 
+.email a:hover {
+	color: var(--primary-color);
+}
+
 .link {
 	text-align: center;
 }
 
 .email-link {
-	margin-right: 55px;
+	margin: 0 20px;
 	color: var(--primary-color);
 	font-size: 28px;
 	text-decoration: none;
-	background: rgba(108, 99, 255, 0.05);
+	background: var(--secondary-color);
+	border-radius: 50%;
+	padding: 10px;
+	transition: all 100ms ease-in-out;
 }
 
 .email-link:hover {
 	text-decoration: underline;
+	color: white;
+	background: var(--primary-color);
 }
 
 .foto {
@@ -238,7 +248,8 @@ nav a {
 	transition: all 100ms ease-in-out;
 }
 
-nav a:hover, nav li.active a {
+nav a:hover,
+nav li.active a {
 	color: var(--primary-color);
 }
 
