@@ -255,11 +255,10 @@ nav li.active a {
 
 @media (max-width: 576px) {
 	h1 {
-		font-size: 60px;
-		text-align: center;
+		font-size: 50px;
 	}
 	h2 {
-		font-size: 40px;
+		font-size: 35px;
 		text-align: center;
 	}
 	.project-descriptions,
